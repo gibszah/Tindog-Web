@@ -1,0 +1,220 @@
+@font-face {
+  font-family: "Ubuntu-Regular";
+  src: url("../font/Ubuntu-Regular.ttf");
+  src: url("../font/Ubuntu-Regular.ttf") format("ttf"),
+    url("../font/Ubuntu-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Montserrat-VariableFont_wght";
+  src: url("../font/Montserrat-VariableFont_wght.ttf");
+  src: url("../font/Montserrat-VariableFont_wght.ttf") format("ttf"),
+    url("../font/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+.container {
+  padding: 3% 30% 7%;
+}
+
+@font-face {
+  font-family: "Montserrat-Bold";
+  src: url("../font/static/Montserrat-Bold.ttf");
+  src: url("../font/static/Montserrat-Bold.ttf") format("ttf"),
+    url("../font/static/Montserrat-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat-Black";
+  src: url("../font/static/Montserrat-Black.ttf");
+  src: url("../font/static/Montserrat-Black.ttf") format("ttf"),
+    url("../font/static/Montserrat-Black.ttf") format("truetype");
+}
+
+.navbar-brand {
+  font-family: "Ubuntu-Regular";
+  font-weight: bold;
+}
+body {
+  font-family: "Ubuntu-Regular";
+}
+
+h1 {
+  font-family: "Montserrat-Black";
+  color: white;
+  font-size: 3rem;
+  line-height: 3;
+  padding-bottom: 40px;
+}
+
+.kanan {
+  margin-left: 50px;
+}
+
+#title {
+  background-color: #ff4c68;
+  color: #fff;
+  padding: 1% 14%;
+}
+
+.title-image {
+  position: absolute;
+  right: 25%;
+  top: 25%;
+  transform: rotate(25deg);
+}
+
+#features {
+  padding: 5% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+button {
+  font-family: "Ubuntu-Regular";
+}
+.meet {
+  padding-top: 30px;
+}
+
+.btn btn-outline-secondary {
+  text-decoration-color: white;
+}
+
+.feature-box {
+  text-align: center;
+  padding: 5%;
+}
+
+h3 {
+  font-family: "Montserrat-Bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+
+.icon:hover {
+  color: #ff4c68;
+}
+
+/*Testimonial section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+h2 {
+  font-family: "Ubuntu-Regular";
+  font-size: 1.5rem;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 20%;
+}
+
+.card-body {
+  line-height: 1;
+}
+li {
+  line-height: 1.5;
+}
+#judul {
+  color: black;
+  font-weight: bold;
+  font-family: "Ubuntu-Regular";
+  font-size: 25px;
+}
+
+#warna {
+  background-color: #f5cdae;
+}
+
+#dua {
+  color: #fff;
+}
+
+#pricing {
+  text-align: center;
+  padding: 3% 15%;
+}
+
+.col-sm-12 {
+  padding: 3% 2%;
+}
+
+@media (max-width: 1028px) {
+  .title-image {
+    position: static;
+    transform: rotate(0);
+    padding-top: 7%;
+  }
+  .meet {
+    padding-top: 15px;
+    text-align: center;
+  }
+
+  #title {
+    text-align: center;
+    padding: 3% 7%;
+  }
+
+  .kanan {
+    text-align: center;
+  }
+}
+
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 5% 28% 8%;
+  color: #fff;
+}
+
+.fn {
+  font-family: "Ubuntu-Regular";
+  padding-bottom: 40px;
+  font-weight: inherit;
+  font-size: 30px;
+}
+
+.knn {
+  margin-left: 35px;
+}
+
+/*footer*/
+
+.footer {
+  text-align: center;
+  padding: 5% 7% 3%;
+  line-height: 2;
+}
+.footer-link {
+  margin: 10px 10px;
+}
+
+#ft {
+  padding: 1.5%;
+  font-size: 12px;
+}
